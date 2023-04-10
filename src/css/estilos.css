@@ -1,9 +1,22 @@
-.minha {
-    width: 300px;
-    height: 300px;
+.minha-foto {
+    max-width: 400px;
+    align-items: center;
 }
 
-.imagens {
-    width: 300px;
-    height: 300px;
+.sobre-mim {
+    background-color: rgb(153, 223, 200);
+    margin: 6px;
+    display: flex;
+}    
+
+.texto {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 6px;
+}
+
+.fotos{
+    display: flex;
+    margin: 6px;
+    gap: .5rem;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +7,54 @@
 
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/resert.css">
+    <link rel="stylesheet" href="./src/css/responsividade.css">
+    <link rel="stylesheet" href="./script.js">
 
     <title>Sobre mim </title>
+
 
 </head>
 
 
 <body>
 
-   <header>
+    <header id="header">
+        <a id="nome" href="">Uarles Lemes</a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
 
-   </header>
-    
-    <main>
-        <a>
-            <h1 class="titulo">Um pouco sobre mim </h1>
-            <img class="minha" src="./src/imagens/299099912_487130756577143_7531189289588198612_n.webp" alt="minha imagen">
-        </a>   
-        <P class="texto">Bem, esse sou eu meu nome é Uarles Lemes Dos Santos tenho 19 anos, filho do Fracelino Cordeiro Dos Santos e da Gloria Lemes Dos Santos sou de uma pequena cidade da Bahia que se chama Brejolândia, la é muito bom por que eu fazia muitas coisas, tipo criar gado, cavalo, porco, galinha etc. Um otimo lugar para viver eu mechia com plantações de varios alimentos, tirava leite era uma vida perfeita sem nada pra reclamar, estudava bastente concluir ensino médio feiz alguns cursos saia bastante com os amigos e de bem com todos, ate que em um dis percebir que aquilo não era pra mim estava faltando alguma coisa eu so tinha que descobrir o que era ate começei uma faculdade para mim tornar professor de matematica, mas ainda assim vi que não era o que eu queria sair logo no inicio antes mesmo de começar, decidir que tinha que sair daquele lugar largar tudo para trás meu pai, minha mãe, minha irmã mais nova, amigos, os animais que ate hoje morro de saudade. E vim morar em Divínopolis uma cidade expetacular de Minas Gerais, demorei me acustumar pois ainda estava perdido, ainda não citei mas tenho três irmãos que ja moravam aqui e me derão uma grande força. </P>
-            <P>Hoje estou trabalhando e estudando, não atingir meus objetivos creio eu que ainda estão muito longe mas o que importa é que eu sei que estou no caminho certo, me descobrir no mundo da tecnologia e hoje quero ser programador. Me tornei cristão nunca achei que um dia eu seria, pela a vida que eu levava, mas enfim me tornei estou amando eu não quero mudar isso ja mais. É isso ai um pequeno resume sobre mim esta feito.   </P>
+                <span id="icone"></span>
+
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="/">Serviço</a></li>
+                <li><a href="/">Formação</a></li>
+                <li><a href="/">Conteúdo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="sobre-mim">
+        <img class="minha-foto" src="./src/imagens/299099912_487130756577143_7531189289588198612_n.webp" alt="">
+        <p class="texto">Bem, esse sou eu meu nome é Uarles Lemes Dos Santos tenho 19 anos, filho do Fracelino Cordeiro Dos Santos e da Gloria Lemes Dos Santos sou de uma pequena cidade da Bahia que se chama Brejolândia, la é muito bom por que eu fazia muitas coisas, tipo criar gado, cavalo, porco, galinha etc. Um otimo lugar para viver eu mechia com plantações de varios alimentos, tirava leite era uma vida perfeita sem nada pra reclamar, estudava bastente concluir ensino médio feiz alguns cursos saia bastante com os amigos e de bem com todos, ate que em um dis percebir que aquilo não era pra mim estava faltando alguma coisa eu so tinha que descobrir o que era ate começei uma faculdade para mim tornar professor de matematica, mas ainda assim vi que não era o que eu queria sair logo no inicio antes mesmo de começar, decidir que tinha que sair daquele lugar largar tudo para trás meu pai, minha mãe, minha irmã mais nova, amigos, os animais que ate hoje morro de saudade. E vim morar em Divínopolis uma cidade expetacular de Minas Gerais, demorei me acustumar pois ainda estava perdido, ainda não citei mas tenho três irmãos que ja moravam aqui e me derão uma grande força. 
+        Hoje estou trabalhando e estudando, não atingir meus objetivos creio eu que ainda estão muito longe mas o que importa é que eu sei que estou no caminho certo, me descobrir no mundo da tecnologia e hoje quero ser programador. Me tornei cristão nunca achei que um dia eu seria, pela a vida que eu levava, mas enfim me tornei estou amando eu não quero mudar isso ja mais. É isso ai um pequeno resume sobre mim esta feito.</p>
     </main>
-    <div class="imagens">
-        <marquee direction="left" scrollamount="3"   behavior="alternate"  onmouseover="this.stop()" onmouseout="this.start()"><img src="./    src/imagens/330966410_523106429952998_3684302749774767268_n.webp">
-            <img src="./src/imagens/316371392_6006296049401970_2556319176369617128_n.webp">
-            <img class="paimae" src="./src/imagens/pai e mãe.jpg">
-            <img src="./src/imagens/Imagem do WhatsApp de 2023-04-06 à(s) 22.07.38.jpg">
-        </marquee>
+
+    <div class="serviço">
+        <h1>Programador</h1>
+
+        <p>Sou Desenvolvedor de Front-End</p>
+        <div class="fotos">
+            <img src="./src/imagens/1 imagem.jpg" alt="">
+            <img src="./src/imagens/2 imagem.jpg" alt="">
+            <img src="./src/imagens/3 imagem.jpg" alt="">
+        </div>
     </div>
-    
+
+   
+
+
 
     
 </body>
