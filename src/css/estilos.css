@@ -10,6 +10,7 @@
 }    
 
 .texto {
+    color: black;
     font-size: 30px;
     font-family: sans-serif;
     margin: 6px;
@@ -19,4 +20,49 @@
     display: flex;
     margin: 6px;
     gap: .5rem;
+    max-width: 200px;
+}
+
+.titulo{
+    font-size: 50px;
+    margin: 6px;
+}
+
+.tema {
+    color: black;
+    font-size: 30px;
+    margin: 6px;
+  
+ 
+}
+
+p {
+    color: white;
+    margin: 6px;
+    gap: .5rem;
+}
+
+.formacao {
+
+    color: wheat;
+    background-color: black;
+    margin: 6px;
+}
+
+.formacoes {
+    background-color: black;
+    gap: .8rem;
+    display: flex;
+    max-width: 100%;
+    margin: 6px;
+}
+
+
+.mario {
+    max-width: 100px;
+}
+
+.la-ele {
+    max-width: 150px;
+    display: flex;
 }
